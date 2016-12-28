@@ -1,0 +1,62 @@
+.section {
+    padding: 15rem 0;
+}
+
+.hero {
+    background-color: lightblue;
+}
+
+@media (max-width: 550px) {
+    .hero-heading {
+        text-align: center;
+    }
+    .hero img {
+        padding-left: 5%;
+    }
+}
+
+
+/* Larger than phablet */
+
+@media (min-width: 550px) {
+    .hero-heading {
+        font-size: 3.6rem;
+        padding-top: 35%;
+    }
+    .hero img {
+        padding-left: 18%;
+    }
+}
+
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+    .hero-heading {
+        font-size: 4.2rem;
+        padding-top: 45%;
+    }
+}
+
+
+/* Larger than desktop */
+
+@media (min-width: 1000px) {
+    .hero-heading {
+        font-size: 5.0rem;
+        padding-top: 50%;
+    }
+}
+
+
+/* Larger than Desktop HD */
+
+@media (min-width: 1200px) {
+    .hero-heading {
+        font-size: 6.0rem;
+        padding-top: 40%;
+    }
+    .hero img {
+        padding-left: 25%;
+    }
+}

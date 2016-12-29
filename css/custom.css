@@ -3,11 +3,6 @@
 
 .button {
     border-radius: 100px;
-    background-color: darkred;
-}
-
-.button-primary {
-    background-color: darkred;
 }
 
 
@@ -16,6 +11,28 @@
 
 .navbar {
     padding-right: 5rem;
+    text-align: center;
+}
+
+.navbar ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+    border-radius: 4px;
+}
+
+.navbar a:hover {
+    color: white;
+    background-color: #33AAF0
+}
+
+.link-list {
+    list-style-type: none;
 }
 
 
@@ -72,6 +89,28 @@
 
 .get-help {
     border-bottom: 1px solid #ddd;
+}
+
+
+/* Group
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.group {
+    background-image: url('../images/groupban.jpg');
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 5rem;
+}
+
+
+/* Photos
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.photos {
+    background-image: url('../images/sp.jpg');
+    background-size: cover;
+    color: #000;
+    padding-bottom: 5rem;
 }
 
 
